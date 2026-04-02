@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato</title>
+    <link rel="icon" type="image/svg+xml" href="https://b.zmtcdn.com/images/square_zomato_logo_new.svg">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="w-screen h-screen overflow-x-hidden">
+    <div class="w-screen h-screen relative">
+      <video
+        class="absolute inset-0 w-full h-full object-cover -z-10"
+        src="https://b.zmtcdn.com/data/file_assets/2627bbed9d6c068e50d2aadcca11ddbb1743095925.mp4"
+        autoplay
+        loop
+        muted
+      ></video>
+      <div
+        class="-z-10 absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent"
+      >
+        <div class="flex flex-col items-center justify-center h-full pt-80">
+          <img
+            src="restaurant-landing-page-assets/zomato.png"
+            alt="zomato-icon"
+            class="w-52"
+          />
+          <div
+            class="mb-5 px-5 text-center font-semibold text-5xl text-white mt-8"
+          >
+            India's #1 <br />
+            food delivery app
+          </div>
+          <span class="text-white text-2xl text-center px-5 font-medium"
+            >Experience fast & easy online ordering <br />
+            on the Zomato app</span
+          >
+          <div class="flex gap-6 mt-10">
+            <img
+              class="w-44 cursor-pointer"
+              src="https://b.zmtcdn.com/data/o2_assets/aad864bd17860b27634fe621001c32db1739350431.png"
+            />
+            <img
+              class="w-44 cursor-pointer"
+              src="https://b.zmtcdn.com/data/o2_assets/df6464de32f4a09262cee301f65aaa661739351256.png"
+            />
+          </div>
+          <div
+            class="flex items-center justify-center gap-2 mt-8 animate-bounce"
+          >
+            <span class="text-white font-medium">Scroll down</span>
+            <img
+              src="restaurant-landing-page-assets/double-arrow.svg"
+              alt="double-arrow-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="h-full relative">
+      <div class="absolute left-0 -top-44 h-auto w-[73%] translate-x-[-70%]">
+        <img
+          src="https://b.zmtcdn.com/data/o2_assets/901001826baf04838b1bf505176ff0b11742453501.png"
+          alt="left-side-line"
+          class="h-auto w-full"
+        />
+      </div>
+      <div class="absolute right-0 top-[-35%] sm:top-[-40%] md:top-[-45%] lg:top-[-48%] h-auto w-[60%] translate-x-[60%] ">
+        <img
+          src="https://b.zmtcdn.com/data/o2_assets/901001826baf04838b1bf505176ff0b11742453501.png"
+          alt="right-side-line"
+          class="h-auto w-full"
+        />
+      </div>
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/110a09a9d81f0e5305041c1b507d0f391743058910.png"
+        alt="burger-img"
+        class="lg:w-50 xl:w-60 absolute lg:left-45 xl:left-52 top-10 w-20 sm:w-30 sm:left-15 md:w-40 md:left-25"
+      />
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/b4f62434088b0ddfa9b370991f58ca601743060218.png"
+        alt="momos-img"
+        class="lg:w-60 w-20 sm:w-30 md:w-50 h-52 absolute right-15 sm:right-25 md:right-35 lg:right-52 -top-44"
+      />
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/316495f4ba2a9c9d9aa97fed9fe61cf71743059024.png"
+        alt="pizza-img"
+        class="w-25 sm:w-30 md:w-43 lg:w-55 absolute right-15 sm:right-25 lg:right-36 top-15 sm:top-20 md:top-23 lg:top-35"
+      />
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/9ef1cc6ecf1d92798507ffad71e9492d1742892584.png"
+        alt="tomato-img"
+        class="w-12 absolute top-40 sm:top-50 md:top-60 lg:top-80 xl:top-96 left-15 sm:left-20 md:left-25 lg:left-32"
+      />
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/9ef1cc6ecf1d92798507ffad71e9492d1742892584.png"
+        alt="tomato-img"
+        class="w-12 absolute top-6 md:top-10 right-27 md:right-32 rotate-45"
+      />
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/70b50e1a48a82437bfa2bed925b862701742892555.png"
+        alt="leaves-img"
+        class="absolute w-12 -top-38 left-[30%]"
+      />
+      <div
+        class="w-[30%] text-center m-auto flex items-center justify-center flex-col mt-56"
+      >
+        <span class="text-[#ef4f5f] text-5xl font-medium leading-14"
+          >Better food for more people</span
+        >
+        <span class="text-comet text-xl mt-8 w-100"
+          >For over a decade, we've enabled our customers to discover new
+          tastes, delivered right to their doorstep</span
+        >
+      </div>
+      <div
+        class="rounded-4xl w-full max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl bg-white shadow-2xl m-auto py-6 px-7 flex items-center mx-auto xl:mt-55 mt-40"
+      >
+        <div
+          class="flex items-center justify-center mx-auto gap-3 flex-1 border-r border-r-gray-200 pr-5"
+        >
+          <div class="flex flex-col">
+            <span class="text-[#596378] text-xl sm:text-2xl md:text-3xl font-bold">3,00,000+</span>
+            <span class="text-[#767c8f] text-lg">restautrants</span>
+          </div>
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/d19ec60986487a77bcb026e5efc3325f1742908200.png"
+            alt="restaurant-img"
+            class="w-16 h-14"
+          />
+        </div>
+        <div
+          class="flex items-center justify-center gap-1.5 md:gap-3 flex-1 border-r border-r-gray-200"
+        >
+          <div class="flex flex-col">
+            <span class="text-[#596378] text-xl sm:text-2xl md:text-3xl font-bold">800+</span>
+            <span class="text-[#767c8f] text-lg">cities</span>
+          </div>
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/e7533c4081d6140da37b9f430cb7b8051743006192.png"
+            alt="cities-img"
+            class="w-16 h-14"
+          />
+        </div>
+        <div
+          class="flex items-center justify-center gap-1.5 md:gap-3 flex-1 pl-1"
+        >
+          <div class="flex flex-col">
+            <span class="text-[#596378] text-xl sm:text-2xl md:text-3xl font-bold">3 billion+</span>
+            <span class="text-[#767c8f] text-lg">orders delivered</span>
+          </div>
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/713443cc5944ce4284d7e49e75e2aacf1742466222.png"
+            alt="order-img"
+            class="w-16 h-14"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="h-120 bg-linear-to-b from-[#ffedef] to-white">
+      <div
+        class="relative text-center flex flex-col items-center justify-center py-28"
+      >
+        <span class="text-[#ef4f5f] text-[48px] font-bold leading-tight"
+          >What's waiting for you <br>
+          on the app?</span
+        >
+        <span class="text-xl text-[#596378] font-extralight mt-5"
+          >Our app is packed with features that <br />
+          enable you to experience food <br />
+          delivery like never before</span
+        >
+        <div class="relative">
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/3f7e2757e62fd22592b879bd56b666011742294630.png"
+            alt="phone-img"
+            class="w-[18rem] mt-6"
+          />
+          <div
+            class="py-3.5 pb-2 absolute top-34 left-18 shadow-2xl bg-white rounded-3xl flex flex-col items-center justify-center border border-[#e6e9ef]"
+          >
+            <img
+              src="https://b.zmtcdn.com/data/o2_assets/cc1caf220c91be38dd94cce12b416fcd1746550226.png"
+              alt="calendar-img"
+              class="w-36 h-22.5"
+            />
+            <span
+              >Schedule <br />
+              your order</span
+            >
+          </div>
+        </div>
+        <div
+          class="py-0 lg:py-2 pb-2 absolute bottom-72 left-94 shadow-2xl bg-transparent lg:bg-white rounded-2xl flex flex-row h-6 lg:h-fit w-20 lg:w-fit lg:flex-col items-center justify-center lg:border lg:border-[#e6e9ef]"
+        >
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/82f145180cd6f920a8a8617dda366a0a1742455963.png"
+            alt="veg-mode-img"
+            class="w-[111px] h-[69px]"
+          />
+          <span class="text-[#293142] text-xs md:text-[16px]">Veg Mode</span>
+        </div>
+        <div
+          class="py-2 pb-2 absolute bottom-70 left-66 md:bottom-64 md:left-60 shadow-2xl bg-transparent lg:bg-white rounded-2xl h-6 lg:h-fit w-20 flex flex-row lg:flex-col items-center justify-center lg:border lg:border-[#e6e9ef]"
+        >
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/d0f1639403f80f8f2c19e0d538222e661742455804.png"
+            alt="healthy-img"
+            class="w-[111px] h-[69px]"
+          />
+          <span class="text-[#293142] text-xs md:text-[16px]">Healthy</span>
+        </div>
+        <div
+          class="py-2 pb-2 absolute bottom-28 left-60 shadow-2xl bg-transparent lg:bg-white rounded-2xl h-6 lg:h-fit w-25 lg:w-fit flex flex-row lg:flex-col items-center justify-center lg:border lg:border-[#e6e9ef]"
+        >
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/5e7aab0f183b36fc12c29279f0cb55181742462245.png"
+            alt="party-img"
+            class="w-[111px] h-[69px]"
+          />
+          <span class="text-[#293142] text-xs md:text-[16px]">Plan a Party</span>
+        </div>
+        <div
+          class="py-2 pb-2 absolute bottom-28 left-100 shadow-2xl bg-transparent lg:bg-white rounded-2xl flex flex-row h-6 lg:h-fit w-20 lg:w-fit lg:flex-col items-center justify-center lg:border lg:border-[#e6e9ef]"
+        >
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/867f86a10503998e437963bb37c451591742455764.png"
+            alt="gift-card-img"
+            class="w-[111px] h-[69px]"
+          />
+          <span class="text-[#293142] text-xs md:text-[16px]">Gift Cards</span>
+        </div>
+        <div
+          class="py-2 pb-2 absolute bottom-64 right-108 shadow-2xl bg-transparent lg:bg-white rounded-2xl flex flex-row h-6 lg:h-fit w-20 lg:w-fit lg:flex-col items-center justify-center lg:border lg:border-[#e6e9ef]"
+        >
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/6e27c9acde6045c272a28e6eb275727e1742455789.png"
+            alt="gourmet-img"
+            class="w-[111px] h-[69px]"
+          />
+          <span class="text-[#293142] text-xs md:text-[16px]">Gourmet</span>
+        </div>
+        <div
+          class="py-2 pb-2 absolute bottom-70 right-74 shadow-2xl bg-transparent lg:bg-white rounded-2xl flex flex-row h-6 lg:h-fit w-20 lg:w-fit lg:flex-col items-center justify-center lg:border lg:border-[#e6e9ef]"
+        >
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/813952c961fd13588cb71867d84ea7dc1742455815.png"
+            alt="offers-img"
+            class="w-[111px] h-[69px] text-xs md:text-[16px]"
+          />
+          <span class="text-[#293142]">Offers</span>
+        </div>
+        <div
+          class="py-2 pb-2 absolute bottom-28 right-102 shadow-2xl bg-transparent lg:bg-white rounded-2xl flex flex-row h-6 lg:h-fit w-20 lg:w-fit lg:flex-col items-center justify-center lg:border lg:border-[#e6e9ef]"
+        >
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/06d090307e02772693ac06123b53459b1742455939.png"
+            alt="food-on-train-img"
+            class="w-[111px] h-[69px]"
+          />
+          <span class="text-[#293142] text-xs md:text-[16px]">Food on Train</span>
+        </div>
+        <div
+          class="py-2 pb-2 absolute bottom-46 right-82 md:bottom-34 md:right-68 shadow-2xl bg-transparent lg:bg-white rounded-2xl flex flex-row h-6 lg:h-fit w-20 lg:w-fit lg:flex-col items-center justify-center lg:border lg:border-[#e6e9ef]"
+        >
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/5e973dd10c387878009c66d625ae541a1746550690.png"
+            alt="collections-img"
+            class="w-[111px] h-[69px] text-xs md:text-[16px]"
+          />
+          <span class="text-[#293142]">Collections</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-black relative py-60 mt-80 text-white flex items-center justify-center flex-col"
+    >
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/5f94743e20e3f668953fda8b0e56f2f71742996005.png"
+        alt="gold-img"
+        class="w-[306px] h-[134px]"
+      />
+      <div
+        class="mt-6 text-xl flex flex-col font-normal bg-linear-to-r from-[#8C6115] via-[#E9C789] to-[#996F25] bg-clip-text text-center text-transparent"
+      >
+        <span>India's Top Savings</span>
+        <span>Program for Food Lovers</span>
+      </div>
+      <div class="mt-6 flex items-center justify-center gap-2">
+        <span
+          class="bg-linear-to-r from-[#8C6115] via-[#E9C789] to-[#996F25] bg-clip-text text-center text-transparent"
+          >&#9733;</span
+        >
+        <span class="text-2xl font-medium tracking-[4px]">GOLD BENEFITS</span>
+        <span
+          class="bg-linear-to-r from-[#8C6115] via-[#E9C789] to-[#996F25] bg-clip-text text-center text-transparent"
+          >&#9733;</span
+        >
+      </div>
+      <div class="flex gap-10 mt-8">
+        <img
+          src="https://b.zmtcdn.com/data/o2_assets/bc9d2a579285cbdaa101b8fe2ba68f601741779645.png"
+          alt="free-delivery-img"
+          class="w-[4.6rem]"
+        />
+        <div class="flex flex-col">
+          <span class="text-2xl">Free Delivery</span>
+          <span
+            class="text-xl mt-1 bg-linear-to-r from-[#8C6115] via-[#E9C789] to-[#996F25] bg-clip-text text-center text-transparent"
+            >At all restaurants within 7 km</span
+          >
+        </div>
+        <img
+          src="https://b.zmtcdn.com/data/o2_assets/d668ed26c7d4771318d0aa03b3f905e71741779899.png"
+          alt="scooter-img"
+          class="w-[4.6rem]"
+        />
+        <div class="flex flex-col">
+          <span class="text-2xl">Up to 30% extra off</span>
+          <span
+            class="text-xl mt-1 bg-linear-to-r from-[#8C6115] via-[#E9C789] to-[#996F25] bg-clip-text text-center text-transparent"
+            >At 20,000+ partner restaurants</span
+          >
+        </div>
+      </div>
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/e7a502b732de9cd0d5ceca82306137ca1743059837.png"
+        alt="gold-star-img"
+        class="w-44 absolute top-0 left-0"
+      />
+      <img
+        src="https://b.zmtcdn.com/data/o2_assets/e7a502b732de9cd0d5ceca82306137ca1743059837.png"
+        alt="gold-star-img"
+        class="w-76 absolute top-0 right-0 rotate-1"
+      />
+    </div>
+    <div
+      class="pt-24 gap-28 flex items-center justify-center bg-linear-to-r from-[#ffedef] to-white"
+    >
+      <div class="flex flex-col">
+        <span class="text-[2.5rem]">Download the app now!</span>
+        <span class="text-2xl text-gray-600"
+          >Experience seamless online ordering only on the Zomato app</span
+        >
+        <div class="flex gap-4 mt-8">
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/aad864bd17860b27634fe621001c32db1739350431.png"
+            alt="play-store-img"
+            class="w-[188px] h-14"
+          />
+          <img
+            src="https://b.zmtcdn.com/data/o2_assets/df6464de32f4a09262cee301f65aaa661739351256.png"
+            alt="app-store-img"
+            class="w-[167px] h-14"
+          />
+        </div>
+      </div>
+      <div class="relative">
+        <img
+          src="https://b.zmtcdn.com/data/o2_assets/3f7e2757e62fd22592b879bd56b666011742294630.png"
+          alt="phone-img"
+          class="w-md h-116"
+        />
+        <span
+          class="absolute w-56 left-30 top-32 text-center text-xl text-gray-700 font-medium"
+          >Scan the QR code to download the app</span
+        ><img
+          src="https://b.zmtcdn.com/data/o2_assets/98cc4eba0a6f59e728e5223a70fd39551742471514.png"
+          class="w-56 absolute left-30 bottom-10"
+        />
+      </div>
+    </div>
+    <div class="bg-black text-white p-20 md:px-36 flex flex-col">
+      <span>Zomato</span>
+      <span class="mt-8 hover:underline cursor-pointer">Visit Help Center</span>
+      <div class="flex justify-between gap-2 mt-8 flex-wrap">
+        <div>
+          <span class="text-lg font-medium">Company</span>
+          <div class="flex flex-col gap-3 mt-2">
+            <span class="text-sm">About Us</span>
+            <span class="text-sm">Our Offering</span>
+            <span class="text-sm">Newsroom</span>
+            <span class="text-sm">Investor</span>
+          </div>
+        </div>
+        <div>
+          <span class="text-lg font-medium">Quick Links</span>
+          <div class="flex flex-col gap-3 mt-2">
+            <span class="text-sm">Home</span>
+            <span class="text-sm">Shops</span>
+            <span class="text-sm">Best Sellers</span>
+            <span class="text-sm">Deals</span>
+          </div>
+        </div>
+        <div>
+          <span class="text-lg font-medium">Customer Support</span>
+          <div class="flex flex-col gap-3 mt-2">
+            <span class="text-sm">FAQs</span>
+            <span class="text-sm">Shipping & Delivery</span>
+            <span class="text-sm">Returns & Refund</span>
+            <span class="text-sm">Privacy Policy</span>
+          </div>
+        </div>
+        <div>
+          <span class="text-lg font-medium">Follow Us</span>
+          <div class="flex flex-col gap-3 mt-2">
+            <span class="text-sm">Instagram</span>
+            <span class="text-sm">Facebook</span>
+            <span class="text-sm">Twitter/X</span>
+            <span class="text-sm">LinkedIn</span>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-start gap-2">
+        <img
+          src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-google-4d63c31a3e.svg"
+          alt="Play-store-icon"
+          class="w-[7.8rem] h-[7.8rem] cursor-pointer"
+        />
+        <img
+          src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-apple-f1f919205b.svg"
+          alt="App-store-icon"
+          class="w-[7.8rem] h-[7.8rem] cursor-pointer"
+        />
+      </div>
+      <span class="mt-4 text-gray-400 text-xs"
+        >&copy; 2025 Zomato Technologies Inc.</span
+      >
+    </div>
+  </body>
+</html>
+
+  </body>
+</html>
